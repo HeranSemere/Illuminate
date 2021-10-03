@@ -29,11 +29,18 @@ dependencies:
   date_time_picker: "^1.1.1"
   logger: ^0.9.4
   http: ^0.12.2
+  flutter_launcher_icons: ^0.8.1
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+
+flutter_icons:
+  image_path: "assets/earth.jpeg"
+  android: true
+  ios: true
+
 
 dev_dependencies:
   flutter_test:
@@ -52,7 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/earth.png
+    - assets/earth.jpeg
     - assets/windmill.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -80,3 +87,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+
+
